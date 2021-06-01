@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 ENV DEBIAN_FRONTEND noninteractive
 
-ENV pip_packages "ansible"
+ENV pip_packages "ansible==2.9.22"
 
 # Install dependencies.
 RUN apt-get update \
