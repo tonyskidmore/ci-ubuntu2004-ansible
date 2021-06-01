@@ -65,8 +65,8 @@ jobs:
       with:
         tags: |
           ghcr.io/tonyskidmore/ci-ubuntu2004-ansible:latest
-          # ghcr.io/tonyskidmore/ci-ubuntu2004-ansible:${{ github.event.release.tag_name }}
         file: /Dockerfile
         # build-args: APP_VERSION_ARG=${{ github.event.release.tag_name }}
+        # ghcr.io/tonyskidmore/ci-ubuntu2004-ansible:${{ github.event.release.tag_name }}
         push: true
 
